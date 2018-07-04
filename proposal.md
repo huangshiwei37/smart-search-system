@@ -3,7 +3,8 @@
 
 1. Problem
 
-There are some user-dynamic parking lots around rental apartment buildings or office buildings. In these parking lots, the users renting parking stalls may change from time to time since tenants move in / move out or staffs change their jobs. This sometimes causes the inappropriate assignment of parking stalls to users. For example, a user of building A is assigned a parking stall close to building B while another user of building B is assigned a parking stall close to builing A. This is bad especially in the winter of Winnipeg.
+There are some user-dynamic parking lots around rental apartment buildings or office buildings. In these parking lots, the users renting parking stalls may change from time to time since tenants move in / move out or staffs change their jobs. This sometimes causes inappropriate assignments of parking stalls to users. For example, a user of building A is first assigned a parking stall close to building B since there are no parking stalls available besides building A. However, when a parking stall close to building A becomes available, this user and managers may not be aware of the new vacancy without an autonomous management system. Another situation is that 
+a user of building A is assigned a parking stall close to building B while another user of building B is assigned a parking stall close to builing A. These situations are bad for users especially in the winter of Winnipeg.
 
 2. Idea
 
@@ -31,7 +32,7 @@ The information the website will store includes a list of all parking stalls (ea
 
   - A user is allowed to have more than one vehicles.
 
-  - A user can be put into a waiting list when there are no parking stalls available or there are no stalls that this users want.
+  - A user can be put into a waiting list when there are no parking stalls available or there are no stalls that this user wants.
 
   
 
